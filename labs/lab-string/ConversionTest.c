@@ -18,6 +18,9 @@ int main(void) {
     assert(ToInteger("100") == 100);
 
     /* ── Operacion libre — agregar tests aca ────────────────────────────── */
+    assert(ToChar(0) == '0');
+    assert(ToChar(3) == '3');
+    assert(ToChar(9) == '9');
 
     return 0;
 }
